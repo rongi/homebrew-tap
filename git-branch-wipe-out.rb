@@ -3,7 +3,7 @@ class GitBranchWipeOut < Formula
   homepage "https://github.com/rongi/git-branch-wipe-out/"
   url "https://github.com/rongi/git-branch-wipe-out/archive/1.0.1.tar.gz"
   version "1.0.1"
-  sha256 "99b5d5842e956e940c6d423655c33572660a1f5a999acebe315a826d6f05247c"
+  sha256 "e9d14dda6784ea8d9c1f8d686ce0215889e22e4ff8ae67cb23d2647fb873f0e0"
 
   def install
     bin.install "git-branch-wipe-out"
