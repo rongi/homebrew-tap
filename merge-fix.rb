@@ -3,7 +3,7 @@ class MergeFix < Formula
   homepage "https://github.com/rongi/merge-fix"
   url "https://github.com/rongi/merge-fix/archive/1.0.2.tar.gz"
   version "1.0.2"
-  sha256 "6adeeba10b2db688d1602d908cd5a7152915b4720692a09e270ad0cf6afb67b7"
+  sha256 "c87db9fb430e661216c704c7d535aacbc5eefc30e23a468636d659d68f33c8bd"
 
   def install
     bin.install "merge-fix"
