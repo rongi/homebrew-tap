@@ -7,5 +7,6 @@ class MergeFix < Formula
 
   def install
     bin.install "merge-fix"
+    bin.install "merge-feature"
   end
 end
