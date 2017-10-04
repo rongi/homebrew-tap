@@ -5,8 +5,8 @@
 class Dikter < Formula
   desc "Generates models and other boilerplate from json"
   homepage "https://github.com/rongi/dikter"
-  url "https://github.com/rongi/dikter/releases/download/v0.1.0/dikter.tar"
-  sha256 "1c1baa2d0401b5b7157fff0a0e9b32b3e63d87f6302c9b06db7781ac474f1f23"
+  url "https://github.com/rongi/dikter/releases/download/v0.1.1/dikter.tar"
+  sha256 "bf9d6b63acf1339e294231447fe432ae666838c6866feaaefc8476d4789b59c5"
 
   def install
     prefix.install Dir["./*"]
