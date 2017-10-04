@@ -9,6 +9,6 @@ class Dikter < Formula
   sha256 "1c1baa2d0401b5b7157fff0a0e9b32b3e63d87f6302c9b06db7781ac474f1f23"
 
   def install
-    bin.install "."
+    prefix.install Dir["./*"]
   end
 end
