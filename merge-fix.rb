@@ -7,7 +7,6 @@ class MergeFix < Formula
   sha256 "e00dd4d178567ac3509927ba55c290af76cedf0ad3db32232333a3d8cd790873"
 
   def install
-    bin.install "merge-fix"
-    bin.install "merge-feature"
+    bin.install "mergefix"
   end
 end
