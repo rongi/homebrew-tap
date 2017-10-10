@@ -5,11 +5,10 @@
 class Dikter < Formula
   desc "Generates models and other boilerplate from json"
   homepage "https://github.com/rongi/dikter"
-  url "https://github.com/rongi/dikter/releases/download/v0.1.2/dikter.tar"
-  # shasum -a 256 some_tarball.tar.gz 
-  sha256 "b605973abaa466ab259afa85250342777f6e9509b48c07a990a643b666c33d21"
+  head "https://github.com/rongi/dikter.git", :branch => "master"
 
   def install
-    prefix.install Dir["./*"]
+    system "./gradlew instalDist"
+    prefix.install Dir["./build/install/dikter/*"]
   end
 end
